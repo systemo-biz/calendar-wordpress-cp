@@ -1,7 +1,6 @@
-calendar-wordpress-cp
+Calendar for WordPress by CasePress
 =====================
 
-Calendar for WordPress by CasePress
 
 
 # Todo
