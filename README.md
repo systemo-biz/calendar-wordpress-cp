@@ -19,3 +19,10 @@ Calendar for WordPress by CasePress
 ## Переход на страницу события
 1. Сами события как посты не публичные. Переходить на них нельзя.
 2. У каждого события есть либо родитель в виде другого поста, либо ID комментария в мете "parrent_comment". Чтобы иметь возможность получить родительский пост или родительский коммент.
+
+
+## API
+1. add_event_cp($object_type, $object_id, $event_key, $event_value, $event_duration) - добавляет события с привзякой. аналог http://wp-kama.ru/function/add_metadata
+2. update_event_cp($object_type, $object_id, $event_key, $event_value, $event_duration) - обновляет событие. если оно отличается.
+3. delete_event_cp
+4. get_event_cp
