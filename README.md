@@ -61,8 +61,8 @@ string $url URL события
 ###get_event_cp( int $event_id, string $output = 'OBJECT', string $filter = 'raw')
 Получение события с ID $event_id
 $output Определяет формат возвращаемого значения
-	Варианты:
-		OBJECT - Объект WP_Post с дополнительными свойствами duration и url содержащими длительность события в секундах и URL. По умолчанию.
-		ARRAY_A - Ассоциативный массив
-		ARRAY_N - Нумерованый массив
+Варианты:
+- OBJECT - Объект WP_Post с дополнительными свойствами duration и url содержащими длительность события в секундах и URL. По умолчанию.
+- ARRAY_A - Ассоциативный массив
+- ARRAY_N - Нумерованый массив
 $filter Фильтрация поста. Смотрите http://codex.wordpress.org/Function_Reference/sanitize_post_field для полного списка значений. По умолчанию 'raw'
