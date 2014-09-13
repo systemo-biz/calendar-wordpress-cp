@@ -49,17 +49,17 @@ Calendar for WordPress by CasePress
 ###validate_date($date)
 Проверка формата даты (string $date) должен соответствовать Y-m-d H:i:s
 ###add_event_cp(string|int $start, string|int $end, string $title, string $description, string|int|array $event_key, string $url)
-Добавляет пост типа "Событие" 
-string|int $start Дата и время начала события. Строка формата Y-m-d H:i:s или UNIX timestamp.
-string|int $end Дата и время окончания события. Строка формата Y-m-d H:i:s или UNIX timestamp.
-string $title Заголовок события
-string $description Описание события
-string|int|array $event_key Термины таксономии "Категория события". Строка содержашая название термина/слаг или целочисленное значение ID термина или массив целочисленых значений ID терминов.
+Добавляет пост типа "Событие"  
+string|int $start Дата и время начала события. Строка формата Y-m-d H:i:s или UNIX timestamp.  
+string|int $end Дата и время окончания события. Строка формата Y-m-d H:i:s или UNIX timestamp.  
+string $title Заголовок события  
+string $description Описание события  
+string|int|array $event_key Термины таксономии "Категория события". Строка содержашая название термина/слаг или целочисленное значение ID термина или массив целочисленых значений ID терминов.  
 string $url URL события
 ###delete_event_cp( int $event_id, bool $force_delete = false)
 Удаление события с ID $event_id. $force_delete Определяет помещать событие в корзину или удалять полностью. По умолчанию false т.е. помещение в корзину.
 ###get_event_cp( int $event_id, string $output = 'OBJECT', string $filter = 'raw')
-Получение события с ID $event_id
+Получение события с ID $event_id  
 $output Определяет формат возвращаемого значения  
 Варианты:
 - OBJECT - Объект WP_Post с дополнительными свойствами duration и url содержащими длительность события в секундах и URL. По умолчанию.
